@@ -9,7 +9,7 @@ mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
 newsButton = "NEWS"
-launchButton = "PLAY"
+launchButton = "เริ่มเกม"
 launchButtonPlaceholder = "&#8226; No Server Selected"
 launchDetails = "Please wait.."
 newsNavigationStatus = "{currentPage} of {totalPages}"
@@ -127,7 +127,7 @@ updateReleaseNotes = "Update Release Notes"
 waitingText = "Waiting for Microsoft.."
 
 [ejs.welcome]
-continueButton = "CONTINUE"
+continueButton = "เริ่มต้น"
 
 
 [js.discord]
