@@ -18,8 +18,7 @@
       "mainServer": false,
       "autoconnect": false,
       "modules": [
-        },
+      ]
+        }
       ]
     }
-  ]
-}
