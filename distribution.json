@@ -1,16 +1,11 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
       "id": "Vixlet-Studio-1.20.1",
       "name": "Vixlet-Studio (Minecraft 1.20.1)",
-      "description": "Vixlet-Studio RolePlay No.1",
+      "description": "Vixlet-Studio Running Minecraft 1.20.1",
       "icon": "https://cdn.discordapp.com/attachments/1368677406277369997/1439940103429685278/icon.png?ex=691c5839&is=691b06b9&hm=657b5d40b6332987a959911d5bb01b4698be382b7d189d186108b7c722c30fa9&",
       "version": "",
       "address": "localhost:25565",
@@ -18,7 +13,18 @@
       "mainServer": false,
       "autoconnect": false,
       "modules": [
-      ]
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "http://localhost:8080/servers/Vixlet-Studio-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "d5283f8251005284d3317f04552d661f",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
         }
       ]
     }
+  ]
+}
